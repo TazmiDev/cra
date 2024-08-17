@@ -1,5 +1,5 @@
 {
-    "name": "cra",
+    "name": "cra-z",
     "version": "1.0.0",
     "description": "A tool for generating and querying Chinese region addresses, including provinces, cities, and districts.",
     "main": "dist/index.js",
@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/TazmiDev/cra.git"
+        "url": "git+https://github.com/TazmiDev/cra-z.git"
     },
     "keywords": [
         "Chinese",
@@ -27,11 +27,11 @@
         "Vue.js"
     ],
     "author": "TazmiDev",
-    "license": "MIT",
+    "license": "Apache 2.0",
     "bugs": {
-        "url": "https://github.com/TazmiDev/cra/issues"
+        "url": "https://github.com/TazmiDev/cra-z/issues"
     },
-    "homepage": "https://github.com/TazmiDev/cra#readme",
+    "homepage": "https://github.com/TazmiDev/cra-z#readme",
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^5.62.0",
         "@typescript-eslint/parser": "^5.62.0",

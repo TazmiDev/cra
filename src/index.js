@@ -2,7 +2,7 @@ const { findByCode, findByName } = require('./core/address');
 const { getRandomAddress } = require('./core/random');
 
 /**
- * CRA module with address lookup and random generation functionalities.
+ * CRA-Z module with address lookup and random generation functionalities.
  */
 const cra = {
     /**

@@ -1,4 +1,4 @@
-declare module "cra" {
+declare module "cra-z" {
     interface Address {
         name: string;
         code: string;
