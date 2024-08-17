@@ -1,0 +1,43 @@
+{
+    "name": "cra",
+    "version": "1.0.0",
+    "description": "A tool for generating and querying Chinese region addresses, including provinces, cities, and districts.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "node test/utils.test.js && node test/core/address.test.js && node test/core/random.test.js",
+        "lint": "eslint 'src/**/*.ts' 'test/**/*.ts'",
+        "prepublishOnly": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TazmiDev/cra.git"
+    },
+    "keywords": [
+        "Chinese",
+        "Region",
+        "Address",
+        "Province",
+        "City",
+        "District",
+        "Random",
+        "Generator",
+        "Node.js",
+        "Vue.js"
+    ],
+    "author": "TazmiDev",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/TazmiDev/cra/issues"
+    },
+    "homepage": "https://github.com/TazmiDev/cra#readme",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.62.0",
+        "@typescript-eslint/parser": "^5.62.0",
+        "eslint": "^8.45.0",
+        "prettier": "^3.0.0",
+        "typescript": "^5.2.2"
+    },
+    "dependencies": {}
+}
