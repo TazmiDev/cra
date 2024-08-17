@@ -1,6 +1,6 @@
 # CRA (Chinese Region Address)
 
-CRA-Z is a Node.js and Vue.js compatible library that provides functionalities for generating and querying Chinese region addresses, including provinces, cities, and districts.
+CRA is a Node.js and Vue.js compatible library that provides functionalities for generating and querying Chinese region addresses, including provinces, cities, 和 districts.
 
 ## Features
 
