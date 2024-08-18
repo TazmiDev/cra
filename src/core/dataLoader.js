@@ -3,7 +3,7 @@ const path = require('path');
 
 /**
  * Load JSON data from a file.
- * @param {string} filePath - The path to the JSON file.
+ * @param {string} filePath - Path to the JSON file.
  * @returns {Array} - The loaded data array.
  */
 function loadData(filePath) {
