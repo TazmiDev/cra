@@ -1,12 +1,11 @@
 {
     "name": "cra-z",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "A tool for generating and querying Chinese region addresses, including provinces, cities, and districts.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
         "build": "tsc",
-        "test": "node test/utils.test.js && node test/core/address.test.js && node test/core/random.test.js",
         "lint": "eslint 'src/**/*.ts' 'test/**/*.ts'",
         "prepublishOnly": "npm run build"
     },
@@ -40,7 +39,9 @@
         "typescript": "^5.2.2"
     },
     "files": [
-        "dist"
+        "dist",
+        "data",
+        "README_zh.md"
     ],
     "dependencies": {}
 }
