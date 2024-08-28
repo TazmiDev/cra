@@ -3,6 +3,7 @@
 CRA is a Node.js and Vue.js compatible library that provides functionalities for generating and querying Chinese region addresses, including provinces, cities, and districts.
 
 [简体中文](README_zh.md)
+
 ## Features
 
 - **Get Address by Code or Name**: Retrieve the full address information by providing either the administrative code or name.
