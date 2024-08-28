@@ -54,18 +54,18 @@ jobs:
       - name: Publish to npm
         run: npm publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.CRA_NPM_TOKEN }}
 
       - name: Set up Node.js for GitHub Packages
         uses: actions/setup-node@v4
         with:
           node-version: '20.x'
           registry-url: 'https://npm.pkg.github.com'
-          scope: '@TazmiDev' # 这里设置为您的GitHub用户名
+          scope: '@TazmiDev'
 
       - run: npm ci
 
       - name: Publish to GitHub Packages
         run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.CRA_GITHUB_TOKEN }}
