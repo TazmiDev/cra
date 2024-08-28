@@ -4,14 +4,14 @@
 name: Publish Package
 
 on:
-  release:
-    types: [创建]
-  # workflow_dispatch:
-  #   inputs:
-  #     version:
-  #       description: 'New package version'
-  #       required: true
-  #       type: string
+  # release:
+  #   types: [创建]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Commit description'
+        required: true
+        type: string
 
 jobs:
   build:
@@ -25,8 +25,9 @@ jobs:
         with:
           node-version: 20
           
-      # - name: Set version
-      #   run: npm version ${{ github.event.inputs.version }} --no-git-tag-version
+      - name: Set version
+        run: npm version patch -m ${{ github.event.inputs.version }}
+        # run: npm version ${{ github.event.inputs.version }} --no-git-tag-version
         
       - run: npm ci
       - run: npm test
