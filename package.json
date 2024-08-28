@@ -28,9 +28,9 @@
     "author": "TazmiDev",
     "license": "Apache 2.0",
     "bugs": {
-        "url": "https://github.com/TazmiDev/cra-z/issues"
+        "url": "https://github.com/TazmiDev/cra/issues"
     },
-    "homepage": "https://github.com/TazmiDev/cra-z#readme",
+    "homepage": "https://github.com/TazmiDev/cra#readme",
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^5.62.0",
         "@typescript-eslint/parser": "^5.62.0",
